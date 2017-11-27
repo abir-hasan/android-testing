@@ -21,7 +21,7 @@ android {
             // testCoverageEnabled = true
         }
     }
-
+    flavorDimensions "default"
     // If you need to add more flavors, consider using flavor dimensions.
     productFlavors {
         mock {
